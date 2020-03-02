@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <title>Adtuo Frontend Test</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-items">
+          <a href="#">
+            <img src="https://www.themoviedb.org/assets/2/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg" alt="The Movie Database (TMDb)" width="81" height="72">
+          </a>
+        </li>
+        <li class="nav-items underline">
+          <a class="nav-links" href="#">Discover</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-links" href="#">Movies</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-links" href="#">TV Shows</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-links" href="#">People</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-links" href="#">Community</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <img class="avatar" src="../public/images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="Avatar">
+    </div>
+  </header>
+  <main class="main__container">
+    <h1>Discover</h1>
+    <form>
+      <label for="input-search"></label>
+      <input class="form__input js-input" type="text" id="input-search" name="input-search" placeholder="Search for a movie, tv show, person..." value="">
+      <button class="form__btn js-btn">Search</button>
+    </form>
+    <ul class="js-movies-list">
+    </ul>
+  </main>
+</body>
+
+</html>
